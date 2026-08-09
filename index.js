@@ -54,6 +54,10 @@ app.get("/githum", (req, res) => {
   res.send(ojaswiData);
 });
 
+app.get("/github", (req, res) => {
+  res.json(ojaswiData);
+});
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`);
 });
