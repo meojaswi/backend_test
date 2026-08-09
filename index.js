@@ -50,9 +50,6 @@ app.get("/login", (req, res) => {
   res.send("<h1>This is a login page</h1>");
 });
 
-app.get("/githum", (req, res) => {
-  res.send(ojaswiData);
-});
 
 app.get("/github", (req, res) => {
   res.json(ojaswiData);
